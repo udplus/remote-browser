@@ -12,7 +12,7 @@
         "url": "https://github.com/supradeep95/remote-browser.git"
     },
     "engines": {
-        "vscode": "^1.23.0"
+        "vscode": "^1.30.0"
     },
     "categories": [
         "Other"
@@ -108,6 +108,7 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
+        "@types/vscode": "^1.30.0",
         "@types/mocha": "^2.2.42",
         "@types/node": "^7.10.2",
         "tslint": "^5.12.1",
